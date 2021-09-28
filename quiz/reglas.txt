@@ -1,0 +1,13 @@
+== REGLAS ==
+* 10 minutos para contestar el quiz
+* Asumiremos que todo el código funciona correctamente y los archivos se encuentras conectados
+* 1 ALIVE point a quien conteste la mayor cantidad de preguntas correctas
+  - En caso de empate cada coder se lleva el ALIVE point completo -> max 3 coders en el empate
+  - Si hay mas de 3 coders empatadas se hará una pregunta de desempate, solo 1 se llevará el ALIVE point
+* Si alguien termina todas las preguntas antes de tiempo y están correctas se lleva 2 ALIVE points
+* Pueden utilizar cualquier recurso que tengan a la mano (google, ejercicios anteriores, notas, compañeras)
+  - La única excepción a la regla es el coach
+* Cada coder puede realizar 2 preguntas al coach bajo las siguientes restricciones
+  - La pregunta debe realizarse en voz alta
+  - SOLAMENTE se contestarán preguntas de SI / NO (no importa cuál sea la pregunta)
+  - Si la pregunta no puede responderse con Si/No se notificará y aún así contará como contestada
