@@ -7,9 +7,7 @@ document.getElementById('patito')
 
 // Menciona los 3 tipos de selectores de CSS que consideres más comunes
 
-// Como se llama la sala donde regularmente tomamos las sesiones
-
-// Como declaramos un arreglo en JS
+// Como declaramos un arreglo y cómo obtenemos los valores dentro de el
 
 // Nombre de la etiqueta que 'une' un archivo HTML con un CSS
 
@@ -27,11 +25,13 @@ const miPerro = {
 
 // Qué pasa si coloco un ';' al final de una sentencia de JS
 
-// Nombre y apellido del coach en turno
-
 // Cuál de las siguientes comparaciones resulta en true y por qué
 8 == '8'
 8 === '8'
+
+// Da una breve explicación de operadores lógicos y un ejemplo de uno de ellos
+
+// Cuáles son las características principales de un ciclo (loop)
 
 // Qué operador se utiliza para concatenar cadenas
 
@@ -41,3 +41,5 @@ let shalala = nombre[33]
 
 // Cuánto da como resultado la siguiente suma
 13 + '37'
+
+// Diferencia principal entre 'let' y 'var'
