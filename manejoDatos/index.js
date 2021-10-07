@@ -73,12 +73,25 @@ let info = {
     ]
 };
 
-//  Quién tiene mas perros?
+// Instrucciones:
+//  * Para cada uno de los siguientes retos crea una función que cumpla con lo que el enunciado solicita.
+//  * Todas las funciones deberán analizar la información descrita dentro de la variable 'info' (listada al inicio de este archivo)
+//  * Una vez terminado el ejercicio crea una rama en el repositorio con tu nombre y sube tu código para evaluarlo
+// IMPORTANTE
+//    Cada uno de tus métodos se utilizarán junto con un bloque de información distinto para comprobar su correcto funcionamiento.
+//    Por lo que es importante no utilizar código estático que pudiera afectar el resultado
 //
-//  Lista todas las especies animales
+// Retos
+//  1) ¿Quién tiene más perros?
 //
-//  Lista aquellas especies que inicien con la letra P
+//  2) Crea un arreglo con todas las especies animales que se encuentres
+//    * Puntos extra si NO se repiten dentro del arreglo
 //
-//  Quién tiene menos animales
+//  3) Lista todas aquellas especies que inicien con la letra 'P'
 //
-//  Genera un enunciado similar a "Juan tiene 4 animales, sus nombres son : Rocky, Pepe"
+//  4) Queremos saber quién tiene menos animales
+//
+//  5) Para cada persona listada, imprime el siguiente enunciado (Cambiando los valores necesarios para cada caso)
+//  "Juan tiene 4 animales, sus nombres son : Rocky, Pepe, Panchito, Milaneso"
+//    * Puntos extra si el enunciado tiene manejo adecuado de singular y plural
+//    * Puntos extra si el enunciado se ajusta coherentemente cuando no se tienen mascotas
