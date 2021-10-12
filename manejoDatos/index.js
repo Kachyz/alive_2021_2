@@ -15,6 +15,31 @@ let info = {
               especie: 'Perro',
               edad: 4,
             },
+            {
+              nombre: 'Panchito',
+              especie: 'Puma',
+              edad: 11
+            },
+            {
+              nombre: 'Squit',
+              especie: 'Paloma',
+              edad: 3
+            },
+            {
+              nombre: 'Tchalla',
+              especie: 'Pantera',
+              edad: 1
+            },
+            {
+              nombre: 'Pancho',
+              especie: 'Pantera',
+              edad: 18
+            },
+            {
+              nombre: 'Toño',
+              especie: 'Tigre',
+              edad: 14
+            }
           ]
         },
         {
@@ -35,7 +60,13 @@ let info = {
               nombre: 'Scooby',
               especie: 'Perro',
               edad: 10
-            }
+            },
+            {
+              nombre: 'Sam',
+              especie: 'Tucán',
+              edad: 3
+            },
+
           ]
         },
         {
@@ -51,6 +82,11 @@ let info = {
               nombre: 'Chocotorro',
               especie: 'Perico',
               edad: 3
+            },
+            {
+              nombre: 'Pumba',
+              especie: 'Jabalí',
+              edad: 6
             }
           ]
         },
@@ -67,7 +103,12 @@ let info = {
               nombre: 'Baloo',
               especie: 'Oso',
               edad: 11
-            }
+            },
+            {
+              nombre: 'Pato',
+              especie: 'Pez',
+              edad: 1
+            },
           ]
         }
     ]
@@ -83,6 +124,48 @@ let info = {
 //
 // Retos
 //  1) ¿Quién tiene más perros?
+
+function masPerros() {
+
+  // console.log(info);
+  // Iterar sobre la cantidad de personas
+  // Para cada persona buscar sus mascotas
+  // Iterar sobre la cantidad de mascotas
+  // Para cada mascota encontrada revisaremos si es un perro
+  // Si la IF se cumple, sumamos el total de perros para esa persona
+
+  let mayorCantPerros = 0;
+  let personaMasPerros = '';
+
+  for(let idPersona = 0; idPersona < info.data.length; idPersona++) {
+    let perrosDeEstaPersona = 0
+    // let persAct = info.data[idPersona];
+    for(let idMascota = 0; idMascota < info.data[idPersona].mascotas.length ; idMascota++) {
+      if(info.data[idPersona].mascotas[idMascota].especie === 'Perro') {
+        perrosDeEstaPersona++;
+      }
+    } // FIN del 2do for
+
+    // Comparar si tiene mas perros que LA que tiene mas perros
+    if(perrosDeEstaPersona > mayorCantPerros){
+      personaMasPerros = info.data[idPersona].nombre
+      mayorCantPerros = perrosDeEstaPersona
+    }
+  } // FIN 1er for
+
+  console.log('la persona con más perros es: ', personaMasPerros);
+}
+
+masPerros();
+
+
+
+
+
+
+
+
+
 //
 //  2) Crea un arreglo con todas las especies animales que se encuentres
 //    * Puntos extra si NO se repiten dentro del arreglo
