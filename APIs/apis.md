@@ -20,8 +20,9 @@
 `https://api.lyrics.ovh/v1/`
 
 #### Varias
-`https://aliveapi.kachyz.dev/mascotas`
-`https://aliveapi.kachyz.dev/personas`
+`https://aliveapi.kachyz.dev/mascotas`\
+`https://aliveapi.kachyz.dev/personas`\
+`https://aliveapi.kachyz.dev/mexico`\
 -> Se aceptan peticiones
 
 #### Otras
